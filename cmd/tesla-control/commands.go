@@ -503,6 +503,24 @@ var commands = map[string]*Command{
 			return car.ToggleMediaPlayback(ctx)
 		},
 	},
+	"media-next-track": &Command{
+		help:             "Skip to next track",
+		requiresAuth:     true,
+		requiresFleetAPI: false,
+		args:             []Argument{},
+		handler: func(ctx context.Context, acct *account.Account, car *vehicle.Vehicle, args map[string]string) error {
+			return car.NextMediaTrack(ctx)
+		},
+	},
+	"media-previous-track": &Command{
+		help:             "Skip to previous track",
+		requiresAuth:     true,
+		requiresFleetAPI: false,
+		args:             []Argument{},
+		handler: func(ctx context.Context, acct *account.Account, car *vehicle.Vehicle, args map[string]string) error {
+			return car.PreviousMediaTrack(ctx)
+		},
+	},
 	"software-update-start": &Command{
 		help:             "Start software update after DELAY",
 		requiresAuth:     true,

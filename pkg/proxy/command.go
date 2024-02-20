@@ -51,6 +51,10 @@ func ExtractCommandAction(ctx context.Context, command string, params RequestPar
 		return nil, ErrCommandNotImplemented
 	case "media_toggle_playback":
 		return func(v *vehicle.Vehicle) error { return v.ToggleMediaPlayback(ctx) }, nil
+	case "media_next_track":
+		return func(v *vehicle.Vehicle) error { return v.NextMediaTrack(ctx) }, nil
+	case "media_prev_track":
+		return func(v *vehicle.Vehicle) error { return v.PreviousMediaTrack(ctx) }, nil
 	// Climate Controls
 	case "auto_conditioning_start":
 		return func(v *vehicle.Vehicle) error { return v.ClimateOn(ctx) }, nil
