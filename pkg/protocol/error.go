@@ -6,11 +6,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/internal/authentication"
-	verror "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/errors"
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/vcsec"
+	"github.com/greenmission/vehicle-command/internal/authentication"
+	verror "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/errors"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/signatures"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/vcsec"
 )
 
 // Error exposes methods useful for categorizing errors.

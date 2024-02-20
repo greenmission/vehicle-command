@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/internal/authentication"
-	"github.com/teslamotors/vehicle-command/internal/log"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
+	"github.com/greenmission/vehicle-command/internal/authentication"
+	"github.com/greenmission/vehicle-command/internal/log"
+	"github.com/greenmission/vehicle-command/pkg/connector"
+	"github.com/greenmission/vehicle-command/pkg/protocol"
 
 	"google.golang.org/protobuf/proto"
 
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 var sessionInfoRequestTimeout = 5 * time.Second

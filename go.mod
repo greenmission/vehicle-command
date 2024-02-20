@@ -1,4 +1,4 @@
-module github.com/teslamotors/vehicle-command
+module github.com/greenmission/vehicle-command
 
 go 1.20
 

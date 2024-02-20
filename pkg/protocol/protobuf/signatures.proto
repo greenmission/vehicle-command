@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package Signatures;
 
-option go_package = "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures";
+option go_package = "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/signatures";
 option java_package = "com.tesla.generated.signatures";
 
 enum Tag

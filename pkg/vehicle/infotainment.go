@@ -11,9 +11,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
-	carserver "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/carserver"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/greenmission/vehicle-command/pkg/protocol"
+	carserver "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/carserver"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 func (v *Vehicle) getCarServerResponse(ctx context.Context, action *carserver.Action_VehicleAction) (*carserver.Response, error) {

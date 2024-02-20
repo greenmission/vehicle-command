@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package CarServer;
 
-option go_package = "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/carserver";
+option go_package = "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/carserver";
 option java_package = "com.tesla.generated.carserver.common";
 
 enum Invalid {

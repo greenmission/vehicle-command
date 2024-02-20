@@ -3,7 +3,7 @@ package protocol
 import (
 	"testing"
 
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 func TestRetriableError(t *testing.T) {

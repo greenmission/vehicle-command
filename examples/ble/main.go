@@ -10,11 +10,11 @@ import (
 	"os"
 	"time"
 
-	debugger "github.com/teslamotors/vehicle-command/internal/log"
+	debugger "github.com/greenmission/vehicle-command/internal/log"
 
-	"github.com/teslamotors/vehicle-command/pkg/connector/ble"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
-	"github.com/teslamotors/vehicle-command/pkg/vehicle"
+	"github.com/greenmission/vehicle-command/pkg/connector/ble"
+	"github.com/greenmission/vehicle-command/pkg/protocol"
+	"github.com/greenmission/vehicle-command/pkg/vehicle"
 )
 
 func main() {

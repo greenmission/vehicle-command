@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	carserver "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/carserver"
+	carserver "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/carserver"
 )
 
 type ChargingPolicy int

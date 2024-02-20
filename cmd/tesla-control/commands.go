@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/pkg/account"
-	"github.com/teslamotors/vehicle-command/pkg/cli"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/vcsec"
-	"github.com/teslamotors/vehicle-command/pkg/vehicle"
+	"github.com/greenmission/vehicle-command/pkg/account"
+	"github.com/greenmission/vehicle-command/pkg/cli"
+	"github.com/greenmission/vehicle-command/pkg/protocol"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/vcsec"
+	"github.com/greenmission/vehicle-command/pkg/vehicle"
 )
 
 var ErrCommandLineArgs = errors.New("invalid command line arguments")

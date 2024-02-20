@@ -8,8 +8,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/signatures"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 func runVerifyTest(t *testing.T, verifier *Verifier, message *universal.RoutableMessage, expected universal.MessageFault_E, expectSessionInfo bool) {

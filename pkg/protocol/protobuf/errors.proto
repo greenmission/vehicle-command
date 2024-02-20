@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package Errors;
 
-option go_package = "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/errors";
+option go_package = "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/errors";
 option java_package = "com.tesla.generated.errors";
 
 enum GenericError_E

@@ -12,7 +12,7 @@ To generate a key pair with OpenSSL:
 	openssl ecparam -genkey -name prime256v1 -noout > private.pem
 	openssl ec -in private.pem -pubout > public.pem
 
-Next, use [github.com/teslamotors/vehicle-command/cmd/tesla-control] an send add-key request to the vehicle over BLE:
+Next, use [github.com/greenmission/vehicle-command/cmd/tesla-control] an send add-key request to the vehicle over BLE:
 
 	tesla-control -vin YOUR_VIN -ble add-key-request public.pem owner cloud_key
 

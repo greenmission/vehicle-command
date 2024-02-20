@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/internal/authentication"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
+	"github.com/greenmission/vehicle-command/internal/authentication"
+	"github.com/greenmission/vehicle-command/pkg/connector"
 
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 // CacheEntry contains information that allows a vehicle session to be resumed without a handshake

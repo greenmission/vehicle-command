@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package VCSEC;
 option java_package = "com.tesla.generated.vcsec";
-option go_package = "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/vcsec";
+option go_package = "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/vcsec";
 
 import "keys.proto";
 import "errors.proto";

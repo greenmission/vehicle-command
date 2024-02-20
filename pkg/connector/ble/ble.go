@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/go-ble/ble"
-	"github.com/teslamotors/vehicle-command/internal/log"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
+	"github.com/greenmission/vehicle-command/internal/log"
+	"github.com/greenmission/vehicle-command/pkg/connector"
 )
 
 const maxBLEMessageSize = 1024

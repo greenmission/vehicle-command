@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"unicode"
 
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 const (

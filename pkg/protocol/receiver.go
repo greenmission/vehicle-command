@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 // A Receiver provides a channel for receiving universal.RoutableMessages from a remote peer.

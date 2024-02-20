@@ -14,10 +14,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/teslamotors/vehicle-command/internal/authentication"
-	"github.com/teslamotors/vehicle-command/internal/log"
-	"github.com/teslamotors/vehicle-command/pkg/cli"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
+	"github.com/greenmission/vehicle-command/internal/authentication"
+	"github.com/greenmission/vehicle-command/internal/log"
+	"github.com/greenmission/vehicle-command/pkg/cli"
+	"github.com/greenmission/vehicle-command/pkg/protocol"
 )
 
 func writeErr(format string, a ...interface{}) {

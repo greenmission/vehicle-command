@@ -13,12 +13,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/teslamotors/vehicle-command/internal/authentication"
-	"github.com/teslamotors/vehicle-command/internal/log"
-	"github.com/teslamotors/vehicle-command/pkg/cache"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
-	"github.com/teslamotors/vehicle-command/pkg/connector/inet"
-	"github.com/teslamotors/vehicle-command/pkg/vehicle"
+	"github.com/greenmission/vehicle-command/internal/authentication"
+	"github.com/greenmission/vehicle-command/internal/log"
+	"github.com/greenmission/vehicle-command/pkg/cache"
+	"github.com/greenmission/vehicle-command/pkg/connector"
+	"github.com/greenmission/vehicle-command/pkg/connector/inet"
+	"github.com/greenmission/vehicle-command/pkg/vehicle"
 )
 
 var (
@@ -143,7 +143,7 @@ func New(oauthToken, userAgent string) (*Account, error) {
 //
 // Providing a nil privateKey is allowed, but a privateKey is required for most Vehicle
 // interactions. Typically, the privateKey will only be nil when connecting to the Vehicle to send
-// an AddKeyRequest; see documentation in [pkg/github.com/teslamotors/vehicle-command/pkg/vehicle]. The
+// an AddKeyRequest; see documentation in [pkg/github.com/greenmission/vehicle-command/pkg/vehicle]. The
 // sessions parameter may also be nil, but providing a cache.SessionCache avoids a round-trip
 // handshake with the Vehicle in subsequent connections.
 func (a *Account) GetVehicle(ctx context.Context, vin string, privateKey authentication.ECDHPrivateKey, sessions *cache.SessionCache) (*vehicle.Vehicle, error) {

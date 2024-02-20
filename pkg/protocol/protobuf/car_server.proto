@@ -3,7 +3,7 @@ syntax = "proto3";
 package CarServer;
 
 option java_package = "com.tesla.generated.carserver.server";
-option go_package = "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/carserver";
+option go_package = "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/carserver";
 
 import "vehicle.proto";
 import "signatures.proto";

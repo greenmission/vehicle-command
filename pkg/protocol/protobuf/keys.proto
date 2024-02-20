@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package Keys;
 option java_package = "com.tesla.generated.keys";
-option go_package = "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/keys";
+option go_package = "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/keys";
 
 enum Role
 {

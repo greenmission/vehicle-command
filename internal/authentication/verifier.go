@@ -10,8 +10,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/signatures"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 // A Verifier checks the authenticity of commands sent by a Signer.

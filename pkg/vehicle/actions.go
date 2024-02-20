@@ -5,8 +5,8 @@ package vehicle
 import (
 	"context"
 
-	carserver "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/carserver"
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/vcsec"
+	carserver "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/carserver"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/vcsec"
 )
 
 func (v *Vehicle) ActuateTrunk(ctx context.Context) error {

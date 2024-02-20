@@ -8,14 +8,14 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/internal/authentication"
-	"github.com/teslamotors/vehicle-command/internal/dispatcher"
-	"github.com/teslamotors/vehicle-command/pkg/cache"
-	"github.com/teslamotors/vehicle-command/pkg/connector"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
+	"github.com/greenmission/vehicle-command/internal/authentication"
+	"github.com/greenmission/vehicle-command/internal/dispatcher"
+	"github.com/greenmission/vehicle-command/pkg/cache"
+	"github.com/greenmission/vehicle-command/pkg/connector"
+	"github.com/greenmission/vehicle-command/pkg/protocol"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/signatures"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 var (

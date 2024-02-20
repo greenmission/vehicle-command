@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
 )
 
 // Domain identifies the vehicle subsystem to route a command to. Each Domain manages its own key

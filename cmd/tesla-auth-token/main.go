@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/teslamotors/vehicle-command/pkg/cli"
+	"github.com/greenmission/vehicle-command/pkg/cli"
 )
 
 func usage() {

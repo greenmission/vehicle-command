@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/internal/dispatcher"
+	"github.com/greenmission/vehicle-command/internal/dispatcher"
 )
 
 type SessionCache struct {

@@ -10,14 +10,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/teslamotors/vehicle-command/pkg/connector"
-	"github.com/teslamotors/vehicle-command/pkg/protocol"
+	"github.com/greenmission/vehicle-command/pkg/connector"
+	"github.com/greenmission/vehicle-command/pkg/protocol"
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/keys"
-	universal "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/universalmessage"
-	"github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/vcsec"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/keys"
+	universal "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/universalmessage"
+	"github.com/greenmission/vehicle-command/pkg/protocol/protobuf/vcsec"
 )
 
 func unmarshalVCSECResponse(message *universal.RoutableMessage) (*vcsec.FromVCSECMessage, error) {

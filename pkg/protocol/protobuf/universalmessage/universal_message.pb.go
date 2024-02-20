@@ -12,7 +12,7 @@
 package universalmessage
 
 import (
-	signatures "github.com/teslamotors/vehicle-command/pkg/protocol/protobuf/signatures"
+	signatures "github.com/greenmission/vehicle-command/pkg/protocol/protobuf/signatures"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
