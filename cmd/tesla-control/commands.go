@@ -512,7 +512,7 @@ var commands = map[string]*Command{
 			return car.NextMediaTrack(ctx)
 		},
 	},
-	"media-previous-track": &Command{
+	"media-prev-track": &Command{
 		help:             "Skip to previous track",
 		requiresAuth:     true,
 		requiresFleetAPI: false,
